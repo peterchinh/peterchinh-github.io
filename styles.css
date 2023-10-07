@@ -235,8 +235,7 @@ input[type="submit"]:hover {
 }
 
 /* CSS for Portfolio */
-.project {
-}
+
 .project img {
   max-width: 800px;
   height: auto;
