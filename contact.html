@@ -18,11 +18,19 @@
     <main>
       <h1 class="page-title">Contact</h1>
       <form id="contact-form">
-        Name:<input type="text" id="name" name="name" /> Email:<input
-          type="email"
-          id="email"
-        />
-        Message:<textarea id="message"></textarea>
+        <p>
+          <label for="name">Name</label
+          ><input type="text" id="name" name="name" required />
+        </p>
+        <p>
+          <label for="email">Email</label
+          ><input type="email" id="email" required />
+        </p>
+
+        <p>
+          <label for="message">Message</label
+          ><textarea id="message" name="message" required></textarea>
+        </p>
         <input type="submit" />
       </form>
     </main>
